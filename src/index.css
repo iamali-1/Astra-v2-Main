@@ -1,0 +1,49 @@
+ul > li {
+  -webkit-margin-start: 0.25rem;
+  margin-inline-start: 0.25rem;
+}
+ul > li:first-child {
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.primary-things {
+  /* bg-primary  border-emerald-600 hover:border-emerald-700  */
+  background-color: #03117e;
+  color: white;
+  border: 1px solid #03117e;
+}
+
+.my-footer {
+  background-color: #00052e;
+  color: white;
+}
+
+.primary-things:hover {
+  /* bg-primary  border-emerald-600 hover:border-emerald-700  */
+  background-color: #059bdf;
+  color: white;
+  border: 1px solid #059bdf;
+}
+
+.my-primary-text {
+  color: #03117e;
+}
+
+.my-dim-text {
+  color: #94a3b8;
+}
+
+.service-card:hover {
+  background-color: #059adf28;
+}
+
+.service-card-icon {
+  background-color: #059adf28;
+  color: #03117e;
+}
+
+.service-card-icon:hover {
+  background-color: #03117e;
+  color: white;
+}
